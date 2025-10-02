@@ -2,7 +2,10 @@ module github.com/canghel3/jiggler
 
 go 1.25.1
 
-require github.com/go-vgo/robotgo v0.110.8
+require (
+	github.com/go-vgo/robotgo v0.110.8
+	github.com/robotn/gohook v0.42.2
+)
 
 require (
 	github.com/dblohm7/wingoes v0.0.0-20240820181039-f2b84150679e // indirect
